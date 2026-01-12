@@ -23,6 +23,7 @@
 1. **Supervised Learning (Learning from Labeled Data)**
   *  The model learns from input-output pairs (X → y).
   * Goal: Predict the output for new, unseen data.
+
   * Types:
     * Regression (Continuous Output): Predict house prices, stock prices.
     * Classification (Discrete Output): Spam vs. not spam, image recognition.
@@ -32,6 +33,7 @@
 
   The model learns hidden structures from data without labels.
   * Goal: Discover patterns, groupings, or anomalies.
+  
   * Types:
     * Clustering: Grouping similar customers (e.g., K-Means).
     * Dimensionality Reduction: Reducing features (e.g., PCA).
