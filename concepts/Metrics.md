@@ -102,6 +102,7 @@ These are used for continuous outcomes like e.g., house prices, temperature, or 
 * **Mean Squared Error (MSE)**: Average of squared errors.Instead of taking the absolute value, we square the errors.
 
     The formula includes:
+    
     ![alt text](assets/mse.png)
 
 * **Root Mean Squared Error (RMSE)**: Square root of MSE.We take the square root of the MSE to bring the number back to our original units.
@@ -109,22 +110,25 @@ These are used for continuous outcomes like e.g., house prices, temperature, or 
     Squaring the error means that a small mistake is penalized a little, but a huge mistake is penalized massively.
 
     The formula includes:
+
     ![alt text](assets/rmse.png)
 
 
 * **Mean Absolute Error (MAE)**: Average of absolute errors.This is the simplest metric. It tells you, on average, how many units your prediction was off by.
 
-We take the distance between each prediction and the actual value, make them all positive (absolute value), and average them.
+    We take the distance between each prediction and the actual value, make them all positive (absolute value), and average them.
 
     The formula includes:
+
     ![alt text](assets/mae.png)
 
 * **R-squared Error**: Proportion of variance explained by the model.
 
-The "Model IQ"
-While MAE and RMSE tell you "how much error" you have, $R^2$ tells you "how much of the story" your model explains.
+    The "Model IQ"
+    While MAE and RMSE tell you "how much error" you have, $R^2$ tells you "how much of the story" your model explains.
 
     The formula includes:
+
     ![alt text](assets/rsquared.png) 
 
 *   * **The Scale**: It usually ranges from 0 to 1 (or 0% to 100%).
