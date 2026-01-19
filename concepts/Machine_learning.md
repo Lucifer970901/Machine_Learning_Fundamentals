@@ -25,8 +25,8 @@
   * Goal: Predict the output for new, unseen data.
 
   * Types:
-    * Regression (Continuous Output): Predict house prices, stock prices.
-    * Classification (Discrete Output): Spam vs. not spam, image recognition.
+    * **Regression**(Continuous Output): Predict house prices, stock prices.
+    * **Classification** (Discrete Output): Spam vs. not spam, image recognition.
 
 
 2. **Unsupervised Learning (Finding Patterns in Unlabeled Data)**
@@ -35,9 +35,9 @@
   * Goal: Discover patterns, groupings, or anomalies.
   
   * Types:
-    * Clustering: Grouping similar customers (e.g., K-Means).
-    * Dimensionality Reduction: Reducing features (e.g., PCA).
-    * Anomaly Detection: Fraud detection.
+    * **Clustering**: Grouping similar customers (e.g., K-Means).
+    * **Dimensionality Reduction**: Reducing features (e.g., PCA).
+    * **Anomaly Detection**: Fraud detection.
 
 3. **Reinforcement Learning (Learning by Trial & Error)**
 
