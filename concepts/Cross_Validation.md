@@ -111,7 +111,9 @@ Instead of trying hyperparameters on a single validation set:
 * Test set = final exam
 * Cross-validation = taking many practice exams with different questions to really test your knowledge.
 
+
 ---
+
 
 ## Understanding Cross-Validation and Bias-Variance Tradeoff
 
@@ -152,7 +154,9 @@ Cross-validation is like taking turns to test how well your model works by split
     * **How it works**: Like K-Fold but keeps the same class proportions in each fold 
     * **When to use**: Only for classification, especially with imbalanced data
 
+
 ---
+
 
 ## Understanding Bias and Variance
 
@@ -188,6 +192,7 @@ is the ultimate "test of truth" for a machine learning model. It measures how we
 * More data → helps reduce bias 
 
 4. K-Fold (K=5 or 10) is often the best balance between reliability and computation time.
+
 
 ---
 
@@ -242,8 +247,10 @@ Cross-validation is like a practice exam that helps you understand how well your
     2. Use stratified version if you have imbalanced classes 
     3. Be cautious with LOOCV - it's not always the best choice despite using maximum data 
     4. Remember that cross-validation estimates are still estimates - real-world performance may vary
-    
+
+
 ---
+
 ## understanding Cross-Validation for grouped and Time Series data
 
 Cross-validation is a technique to evaluate how well your machine learning model will perform on new, unseen data. Let me explain the different types in simple terms.
@@ -307,7 +314,9 @@ Time data is special because:
 * **Grouped CV**: Keeps groups together, tests generalization to new groups
 * **Time Series CV**: Respects time order, never uses future to predict past.
 
+
 ---
+
 
 ## Nested Cross-Validation
 

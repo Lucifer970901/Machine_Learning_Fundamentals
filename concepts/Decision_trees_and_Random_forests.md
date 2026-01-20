@@ -20,14 +20,18 @@ A decision tree is a supervised machine learning algorithm used for both classif
             * If a set is pure (all items are the same), Entropy is 0.
 
             * If a set is perfectly mixed (50/50 split), Entropy is 1.
+            
             The Formula
+            
             $$H(S) = - \sum_{i=1}^{n} p_i \log_2(p_i)$$
 
-            Where 8$p_i$ is the probability of class 9$i$.10 The negative sign ensures the result is positive, and the base-2 logarithm means we measure information in "bits."
+            Where $$p_i$$ is the probability of class $$i$$. The negative sign ensures the result is positive, and the base-2 logarithm means we measure information in "bits."
 
         * **Information gain** is the actual metric used to pick the best feature for a split.12 It measures how much the entropy decreases after we split the data based on a specific attribute.
         
-        The Formula $$IG(S, A) = H(S) - \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} H(S_v)$$
+        The Formula
+         $$IG(S, A) = H(S) - \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} H(S_v)$$
+
         In simple terms Information Gain = (Entropy Before) - (Weighted Entropy After the Split)   
 
     * **Regression** : Mean squared error (MSE) or variance reduction

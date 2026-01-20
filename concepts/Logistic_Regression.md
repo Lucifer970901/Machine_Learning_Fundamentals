@@ -14,10 +14,14 @@ Imagine you want to predict whether a student will pass (1) or fail (0) an exam 
 
 Logistic regression uses the sigmoid function to squeeze the output between 0 and 1.
 
-σ(z)=11+e−zσ(z)=1+e−z1
-
+![alt text](assets/sigmoid_formula.png)
+ or
+ ′
+ σ(z)=σ(z)⋅(1−σ(z))
 Where: 
-* z=b0+b1 ⋅ StudyHours  (just like linear regression). 
+* where,
+x is the input value,
+e is Euler's number (≈2.718)
 * If σ(z)≥0.5σ(z)≥0.5, predict class 1 (pass). 
 * If σ(z)<0.5σ(z)<0.5, predict class 0 (fail).
 
